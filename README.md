@@ -7,7 +7,7 @@
 ### Table of Contents
 ---
 * [Introduction](#introduction)
-* [Operating System(운영체제)](#Operating-System(운영체제))
+* [Operating System(운영체제)](#operating-system(운영체제))
 * [Data Structure(자료구조)](#Data-Structure(자료구조))
 * [Algorithm(알고리즘)](#Algorithm(알고리즘))
 * [Computer Network(컴퓨터 네트워크)](#Computer-Network(컴퓨터-네트워크))
