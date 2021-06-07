@@ -4,7 +4,7 @@
 
 ### Table of Contents
 --- 
-* [Introduction]: <#introduction>
+* [Introduction](#introduction)
 * [Operating System(운영체제)](#operating-system)
 * [Data Structure(자료구조)](#data-structure)
 * [Algorithm(알고리즘)](#algorithm)
