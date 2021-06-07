@@ -3,8 +3,8 @@
 > ##### Since 2021.06.01
 
 ### Table of Contents
----
-* [Introduction](#introduction)
+--- 
+* [Introduction]: <#introduction>
 * [Operating System(운영체제)](#operating-system-(운영체제))
 * [Data Structure(자료구조)](#data-structure-(자료구조))
 * [Algorithm(알고리즘)](#algorithm-(알고리즘))
