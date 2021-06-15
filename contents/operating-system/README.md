@@ -7,6 +7,7 @@ i# Operating System (운영체제)
 * [운영체제란?](#one)  
 * [프로세스](#two)
 * [스레드](#three)
+* [스케쥴링](#four)
 
 </details>
 
@@ -232,5 +233,29 @@ i# Operating System (운영체제)
 * 하나의 프로세스는 여러개의 쓰레드를 가질 수 있다.
 * 쓰레드는 스케쥴링의 단위가 된다.
 
-<h2 id = "three-three">병렬 vs 병행</h2> 
+<h2 id = "three-three">Concurrency vs Parallelism</h2> 
+<img src="./images/figure4.png">  
+
+### Concurrency
+> 싱글 코어 환경에서 한 시점에 하나의 task만 실행되지만, 매우 짧은 시간에 여러 개의 task들을 번갈아가면서 실행시킴으로써 동시에 실행되는 것처러 보이게 하는 것
+
+### Parallelism
+> 멀티 코어 환경에서 한 시점에 실제로 여러개의 task가 동시에 실행되는 것
+
+--- 
+<h1 id="four">4. 스케쥴링</h1>
+<details>
+
+* [프로세스 정의](#two-one)  
+* [메모리 상의 프로세스](#two-two)
+* [프로세스 상태](#two-three)
+* [PCB](#two-four)
+* [Zombie & Orphan](#two-five)
+* [IPC](#two-six)
+
+</details>
+
+하나의 프로세서(cpu)에서는 한 시점에 하나의 프로세스를 실행시킬 수 있는데, 비효율적으로 cpu 자원을 낭비하는 프로세스들이 존재하기에, cpu를 효율적으로 사용하기 위해 여러 프로세스를 한 프로세서에서 실행시키고자 등장한 방법이 바로 스케쥴링이다.
+
+> 기존에 n개의 프로세서에서 n개의 프로세스를 동작시키는 비효율적인 상태에서, n개의 프로세서에서 n개 이상의 프로세스를 실행시킴으로써 더 효율적으로 자원을 사용할 수 있게됨
 
