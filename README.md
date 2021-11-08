@@ -40,6 +40,8 @@
 
 - C
 - JAVA
+- JavaScript
+- MySQL
 
 ### Data Structure
 
